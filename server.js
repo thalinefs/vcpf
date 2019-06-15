@@ -9,7 +9,7 @@ const PORT = (process.env.PORT || 8080);
 // App
 const app = express();
 app.get('/', (req, res) => {
-    res.send('Hello world!');
+    res.send('Salvador ECD!');
 });
 
 app.get('/validar/:cpf', (req, res) => {
